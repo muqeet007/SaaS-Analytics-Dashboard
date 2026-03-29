@@ -5,6 +5,8 @@ import RevenueChart from "@/components/dashboard/revenue-chart"
 import UserGrowthChart from "@/components/dashboard/user-growth-chart"
 
 
+
+
 // Mock data — will be replaced with real DB data on Day 13
 const mockKPIs: KPIData[] = [
   {
@@ -47,6 +49,7 @@ export default function DashboardPage() {
       <div className="grid gap-4 md:grid-cols-2">
         <RevenueChart />
         <UserGrowthChart />
+        
       </div>
     </div>
   )
